@@ -1,0 +1,23 @@
+#ifndef SHIP_H
+#define SHIP_H
+
+#include "field.h"
+
+enum shipTypeEnum
+{
+    SINGLE_DECKER = 1,
+    TWO_DECKER = 2,
+    THREE_DECKER = 3,
+    FOUR_DECKER = 4
+};
+
+
+class Ship
+{
+    Field* shipFields;
+    shipTypeEnum shipType;
+public:
+    Ship(shipTypeEnum shipType);
+};
+
+#endif // SHIP_H
