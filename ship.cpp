@@ -5,5 +5,5 @@ Ship::Ship(shipTypeEnum shipType) :
     shipFields(nullptr)
 {
     this->shipFields=new Field[shipType];
-    //zmiana w kodzie
+    //zmiana w kodzie nr 2
 }
